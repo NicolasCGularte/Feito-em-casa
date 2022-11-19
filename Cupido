@@ -1,0 +1,13 @@
+from time import sleep
+while True:
+  print('*'*40)
+  print('Pense no amor da sua vida! ')
+  print('*'*40)
+  nome = str(input('Digite o nome da pessoa que voçê pensou: '))
+  print('PROCESSANDO...')
+  sleep(2)
+  print('*'*40)
+  if nome == 'nicolas':
+      print('Owwwnnnn que amor!!')
+  else:
+      print('Que pena, você perdeu!')
