@@ -1,0 +1,28 @@
+from matplotlib.collections import BrokenBarHCollection
+from inspect import CO_GENERATOR
+print('*'*40)
+print('Liberador de tarefas do Matheus')
+print('*'*40)
+
+
+while True:
+  resposta = str(input('1°. Matheus, já fez os temas da escola? '))
+  if resposta == 'sim':
+    print('Muito bom! Vamos para a próxima.')
+    print('\n')
+    resposta = str(input('2°. Matheus, já tomou banho? '))
+  if resposta == 'sim':
+    print('Ótimo, podemos continuar.')
+    print('\n')
+    resposta = str(input('3°. Matheus, tu já jantou?'))
+  if resposta == 'sim':
+    print('Uau! Todas as tarefas concluídas. Podemos nos divertir agora!!')
+    print('\n')
+    break
+  while resposta not in 'sim':    
+    print('Precisamos resolver isso para avançarmos!') 
+    print('Termine suas tarefas de casa para poder se divertir pra caramba!!') 
+    print('\n')
+    break
+
+       
